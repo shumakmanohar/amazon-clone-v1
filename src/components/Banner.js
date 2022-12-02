@@ -8,19 +8,19 @@ const Banner = () => {
 			<Carousel
 				autoPlay
 				infiniteLoop
-				showStatus={false}
+				showStatus={true}
 				showThumbs={false}
 				showIndicators={false}
 				interval={5000}
 			>
 				<div>
-					<img src="https:links.papareact.com/gi1" />
+					<img loading="lazy" src="https://links.papareact.com/gi1" />
 				</div>
 				<div>
-					<img src="https:links.papareact.com/6ff" />
+					<img loading="lazy" src="https://links.papareact.com/6ff" />
 				</div>
 				<div>
-					<img src="https:links.papareact.com/7ma" />
+					<img loading="lazy" src="https://links.papareact.com/7ma" />
 				</div>
 			</Carousel>
 		</div>
